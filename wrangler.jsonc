@@ -1,1 +1,15 @@
 
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "shopify-order-builder-api",
+
+  "main": "src/index.js",
+
+  "compatibility_date": "2026-09-14",
+
+  "vars": {
+    "SHOPIFY_SHOP": "https://luxury-negotiation-app.myshopify.com/",
+    "SHOPIFY_API_VERSION": "2026-07"
+  }
+}
